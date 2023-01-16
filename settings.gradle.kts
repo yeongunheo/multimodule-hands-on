@@ -9,5 +9,6 @@ pluginManagement {
 rootProject.name = "kitchenpos"
 
 include(
-    "kitchenpos-domain"
+    "kitchenpos-domain",
+    "kitchenpos-api"
 )

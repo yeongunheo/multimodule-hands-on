@@ -6,6 +6,7 @@ import javax.persistence.CollectionTable;
 import javax.persistence.ElementCollection;
 import javax.persistence.Embeddable;
 import javax.persistence.JoinColumn;
+
 import kitchenpos.menu.exception.NotFoundException;
 import kitchenpos.product.domain.Product;
 
