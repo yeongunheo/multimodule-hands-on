@@ -8,5 +8,7 @@ tasks.getByName("jar") {
 
 dependencies {
     implementation("org.springframework.boot:spring-boot-starter-web")
-    implementation(project(mapOf("path" to ":kitchenpos-domain")))
+
+    implementation(project(":kitchenpos-domain"))
+    implementation(project(":module:util"))
 }

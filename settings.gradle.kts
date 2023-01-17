@@ -8,7 +8,6 @@ pluginManagement {
 
 rootProject.name = "kitchenpos"
 
-include(
-    "kitchenpos-domain",
-    "kitchenpos-api"
-)
+include("kitchenpos-domain")
+include("kitchenpos-api")
+include("module:util")

@@ -7,8 +7,9 @@ import javax.persistence.ElementCollection;
 import javax.persistence.Embeddable;
 import javax.persistence.JoinColumn;
 
-import kitchenpos.menu.exception.NotFoundException;
 import kitchenpos.product.domain.Product;
+
+import kitchenpos.module.exception.NotFoundException;
 
 @Embeddable
 public class MenuProducts {

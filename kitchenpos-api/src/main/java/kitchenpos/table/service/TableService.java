@@ -2,7 +2,7 @@ package kitchenpos.table.service;
 
 import java.util.List;
 import kitchenpos.table.domain.OrderTable;
-import kitchenpos.table.exception.NotFoundException;
+import kitchenpos.module.exception.NotFoundException;
 import kitchenpos.table.repository.OrderTableRepository;
 import kitchenpos.table.controller.dto.request.OrderTableChangeEmptyRequest;
 import kitchenpos.table.controller.dto.request.OrderTableChangeNumberOfGuestsRequest;

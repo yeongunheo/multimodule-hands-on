@@ -8,7 +8,7 @@ import kitchenpos.menu.domain.Menu;
 import kitchenpos.menu.domain.MenuProduct;
 import kitchenpos.menu.domain.MenuProducts;
 import kitchenpos.product.domain.Product;
-import kitchenpos.menu.exception.NotFoundException;
+import kitchenpos.module.exception.NotFoundException;
 import kitchenpos.menu.repository.MenuGroupRepository;
 import kitchenpos.menu.repository.MenuRepository;
 import kitchenpos.product.repository.ProductRepository;

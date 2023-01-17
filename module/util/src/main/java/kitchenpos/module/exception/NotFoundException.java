@@ -1,4 +1,4 @@
-package kitchenpos.menu.exception;
+package kitchenpos.module.exception;
 
 public class NotFoundException extends RuntimeException {
 
