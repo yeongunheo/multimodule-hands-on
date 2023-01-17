@@ -2,8 +2,9 @@
 
 ## 멀티모듈로 마이그레이션
 
-- [ ] mapstruct 적용
 - [ ] 기존 서비스 레이어를 AppService와 BusinessService로 나누기
+  - AppService는 kitchenpos-api에 BusinessService는 kitchenpos-domain에 둔다.
+- [ ] mapstruct 적용
 - [ ] OpenAPI 3로 문서화
 
 ---
